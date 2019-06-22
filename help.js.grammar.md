@@ -1,5 +1,11 @@
 # JavaScript 文法に関するメモ
 
+## 目次
+* ’use strict’ 宣言  
+* プロトタイプ(prototype)の使い方
+
+***
+
 ## ’use strict’ 宣言
 
 
@@ -27,4 +33,61 @@ strictモードでは、より的確なエラーチェックが行われる。
 2019/06/23  7:09
 ***  
 
+## プロトタイプ(prototype)の使い方
 
+### 概要
+「継承」を実現する仕組み。JSではすべてのオブジェクトは「プロトタイプ」をベースとしている。  
+
+### 「prototype」の使い方
+クラスと分けて書く。  
+アンチパターンとして、クラスに内包すると
+同様の内容を持つことになって、メモリの無駄になる。
+
+```
+// プロパティ
+var User = function(name, age) {
+    this.name = name;
+    this.age = age;
+} 
+
+// メソッド
+User.prototype = {
+    getName: function() {
+        return this.name;
+    },
+ 
+    getAge: function() {
+        return this.age;
+    }
+}
+```
+
+### 「prototype」による継承
+「継承」の仕組みで重要なのが「プロトタイプチェーン」です。
+>「プロトタイプチェーン」の仕組み  
+
+各オブジェクトが持っている「プロトタイプ」をチェーンのように連結してお互いを参照できる仕組みになります。
+
+>書き方
+
+各プロトタイプには連結させたいオブジェクトのインスタンスを代入することで継承できる。
+
+```
+var User = function() {};
+var Member = function() {};
+ 
+User.prototype.hello = function() {
+    return 'こんにちは！';
+}
+ 
+Member.prototype = new User();
+ 
+var taro = new User();
+var hanako = new Member();
+ 
+console.log( taro.hello() );
+console.log( hanako.hello() );
+```
+2019/06/23  7:30
+
+****
