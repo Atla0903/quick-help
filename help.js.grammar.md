@@ -17,6 +17,9 @@ strictモードでは、より的確なエラーチェックが行われる。
 6. セキュアな JavaScript 作成の容易化
 7. 8進数表記の禁止 etc..
 
+### 書き方
+>'use strict';
+
 ### 参考
 [Qiita 【JavasScript】use strictとは](https://qiita.com/miri4ech/items/ffcebaf593f5baa1c112)
 
