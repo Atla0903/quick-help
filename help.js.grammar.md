@@ -3,11 +3,12 @@
 ## 目次
 * ’use strict’ 宣言  
 * プロトタイプ(prototype)の使い方
+* var ,let ,const 違い
 
 ***
+## ’use strict’ 宣言 
 
-## ’use strict’ 宣言
-
+2019/06/23  7:09
 
 ### 概要
 JavaScript(以下、JS）内でuse strictを宣言すると、コードがstrict（厳格）モードで実行されるようになる。  
@@ -30,10 +31,11 @@ strictモードでは、より的確なエラーチェックが行われる。
 [Qiita 【JavasScript】use strictとは](https://qiita.com/miri4ech/items/ffcebaf593f5baa1c112)
 
 
-2019/06/23  7:09
 ***  
 
 ## プロトタイプ(prototype)の使い方
+
+2019/06/23  7:30
 
 ### 概要
 「継承」を実現する仕組み。JSではすべてのオブジェクトは「プロトタイプ」をベースとしている。  
@@ -88,6 +90,23 @@ var hanako = new Member();
 console.log( taro.hello() );
 console.log( hanako.hello() );
 ```
-2019/06/23  7:30
 
 ****
+
+## var ,let ,const 違い
+
+2019/06/23 11:47
+
+### まとめ
+
+var は 関数スコープ `function(){}`
+
+let は ブロックスコープ `{}`
+
+const は 再代入不可(定数)
+
+巻き上げは起こるらしい。（内部的に最初に実行されるやつ）
+
+結論は、const 使って、変更が必要なやつは、letを使う
+
+***
