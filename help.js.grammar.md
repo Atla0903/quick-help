@@ -1,12 +1,12 @@
-# JavaScript 文法に関するメモ
+# <span id="top"> JavaScript 文法に関するメモ</span>
 
 ## 目次
-* ’use strict’ 宣言  
-* プロトタイプ(prototype)の使い方
-* var ,let ,const 違い
+* [’use strict’ 宣言](#jump1)  
+* [プロトタイプ(prototype)の使い方](#jump2)
+* [var ,let ,const 違い](#jump3)
 
 ***
-## ’use strict’ 宣言 
+## <a id='jump1' href="#top">’use strict’ 宣言 </a>
 
 2019/06/23  7:09
 
@@ -33,7 +33,7 @@ strictモードでは、より的確なエラーチェックが行われる。
 
 ***  
 
-## プロトタイプ(prototype)の使い方
+## <a id="jump2" href="#top">プロトタイプ(prototype)の使い方</a>
 
 2019/06/23  7:30
 
@@ -93,7 +93,7 @@ console.log( hanako.hello() );
 
 ****
 
-## var ,let ,const 違い
+## <a id="jump3" href="#top">var ,let ,const 違い</a>
 
 2019/06/23 11:47
 
