@@ -4,6 +4,7 @@
 * [’use strict’ 宣言](#jump1)  
 * [プロトタイプ(prototype)の使い方](#jump2)
 * [var ,let ,const 違い](#jump3)
+* [.bindの使い方](#jump4)
 
 ***
 ## <a id='jump1' href="#top">’use strict’ 宣言 </a>
@@ -109,4 +110,48 @@ const は 再代入不可(定数)
 
 結論は、const 使って、変更が必要なやつは、letを使う
 
+***
+
+## <a id='jump4' href='#top'>.bindの使い方</a>
+
+2019/06/28 21:00
+
+### bindメッソドとは
+
+定義された関数に任意のオブジェクトをthisに代入できる
+
+```
+function Person(name, age) {
+  this.name = name;
+  this.age = age;
+ 
+  this.self_introduction = function() {
+    console.log('こんにちは、' + this.name + 'です。年齢は、' + this.age + '歳です。');
+  }
+}
+ 
+function Dog(name, age) {
+  this.name = name;
+  this.age = age;
+}
+ 
+var taro = new Person('太郎', 23); // 太郎という人間
+var hachi = new Dog('ハチ', 5); // ハチというイヌ
+ 
+taro.self_introduction.bind(hachi)();
+```
+
+> "こんにちは、ハチです。年齢は、5歳です。"
+
+これは、本来Dogクラスが持っていない自己紹介のメソッドを、Dogの情報（年齢と名前）を代入することでPersonクラスから呼び出しています。
+
+### 類似関数
+類似メソッドとして、call/applyというメソッドがあります。
+
+先ほど紹介したように、bindメソッドは新たな関数を生成して返しますが、callメソッドではそのまま実行されます。
+
+また、applyメソッドは第二引数以降の指定を配列で行わなければいけない、という違いがあります。
+
+### 参考
+[【JavaScript入門】bindメソッドの使い方をわかりやすく解説！](https://www.sejuku.net/blog/49161)
 ***

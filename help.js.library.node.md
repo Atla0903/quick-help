@@ -4,7 +4,7 @@
 * [Node.jsって何？](#jump1)  
 * [特徴](#jump2)
 * [Node.jsで作られたアプリの特徴](#jump3)
-* [参考](#jump_link)
+* [参考](#jumplink)
 ***
 
 ## <a id='jump1' href="#top">Node.jsって何？</a>
@@ -34,6 +34,6 @@ WEB APサーバーの処理系として動作したり、パッケージ管理�
   * シングルページアプリケーションに合っている
   *  WebSocketを利用するアプリに合っている
 
-## <a id='jump_link' href='#top'>参考</a>
+## <a id='jumplink' href='#top'>参考</a>
 
 * [Node.js を5分で大雑把に理解する](https://qiita.com/hshimo/items/1ecb7ed1b567aacbe559)
