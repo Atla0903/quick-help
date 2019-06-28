@@ -3,7 +3,7 @@
 
 ## 目次
 * [jQuery系](#jump1)
-* [オーサリング系](jump2)
+* [オーサリング系](#jump2)
 
 ***
 ## <a id='jump1' href='#top'>jQuery系</a>
@@ -22,4 +22,3 @@ WEBサイトをGUIでレイアウトできる
   * [公式](https://grapesjs.com/)
   * [デモ](https://grapesjs.com/demo.html)
   * [解説サイト](https://paiza.hatenablog.com/entry/2017/11/16/JavaScript%E3%81%A7%E8%87%AA%E5%88%86%E3%81%A0%E3%81%91%E3%81%AEWeb%E8%A3%BD%E4%BD%9C%E3%82%A8%E3%83%87%E3%82%A3%E3%82%BF%E3%82%92%E6%A7%8B%E7%AF%89%E3%81%A7%E3%81%8D%E3%82%8B%E3%80%8CGrapesJS%E3%80%8D)
-  
