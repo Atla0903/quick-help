@@ -9,4 +9,7 @@
 
 ## <a id="jump_sanko" href="#top">参考サイト</a>
 
-* [IT系女子ブログ](https://itkeijyoshilog.tosssaurus.com/entry/trace-report001)
+* [IT系女子ブログ](https://itkeijyoshilog.tosssaurus.com/entry/trace-report001)  
+熱く語るブログ
+
+* [](https://grapesjs.com/demo.html)
