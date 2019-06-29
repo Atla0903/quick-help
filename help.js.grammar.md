@@ -5,6 +5,7 @@
 * [プロトタイプ(prototype)の使い方](#jump2)
 * [var ,let ,const 違い](#jump3)
 * [.bindの使い方](#jump4)
+* [ECMAScript2015(ES6)](#jump5)
 
 ***
 ## <a id='jump1' href="#top">’use strict’ 宣言 </a>
@@ -154,4 +155,13 @@ taro.self_introduction.bind(hachi)();
 
 ### 参考
 [【JavaScript入門】bindメソッドの使い方をわかりやすく解説！](https://www.sejuku.net/blog/49161)
+***
+
+## <a id='jump5' href='#top'>ECMAScript(ES6)</a>
+
+2019/06/29 17:44
+
+### 参考
+[イマドキのJavaScriptの書き方2018](https://qiita.com/shibukawa/items/19ab5c381bbb2e09d0d9)
+
 ***
