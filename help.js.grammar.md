@@ -6,6 +6,7 @@
 * [var ,let ,const 違い](#jump3)
 * [.bindの使い方](#jump4)
 * [ECMAScript2015(ES6)](#jump5)
+* [便利サイト集](#jumplink)
 
 ***
 ## <a id='jump1' href="#top">’use strict’ 宣言 </a>
@@ -165,3 +166,7 @@ taro.self_introduction.bind(hachi)();
 [イマドキのJavaScriptの書き方2018](https://qiita.com/shibukawa/items/19ab5c381bbb2e09d0d9)
 
 ***
+
+## <a id='jumplink' href='#top'>便利サイト集</a>
+
+* [とほほのJavaScriptリファレンス](http://www.tohoho-web.com/js/)
