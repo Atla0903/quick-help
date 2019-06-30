@@ -5,6 +5,7 @@
 * [ブラウザ対応状況](#jump1)
 * [リファレンス](#jump2)
 * [素材](#jump3)
+* [その他・未整理](#jump-etc)
 ***
 
 > 随時更新していきます。　2019/06/30  8:32
@@ -42,3 +43,7 @@
 
 
 ## <a id='jump3' href='#top'>素材<a>
+
+## <a id='jump-etc' href='#top'>その他・未整理</a>
+
+* [WPJ JavaScriptエンジニアなら知ってるよね？ エラー処理のいい書き方、悪い書き方](https://www.webprofessional.jp/proper-error-handling-javascript/)
