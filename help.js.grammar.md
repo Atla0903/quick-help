@@ -6,6 +6,8 @@
 * [var ,let ,const 違い](#jump3)
 * [.bindの使い方](#jump4)
 * [ECMAScript2015(ES6)](#jump5)
+* [DOM要素サイズの取得](#jump6)
+* [DOM要素座標の取得](#jump7)
 * [便利サイト集](#jumplink)
 
 ***
@@ -166,7 +168,21 @@ taro.self_introduction.bind(hachi)();
 [イマドキのJavaScriptの書き方2018](https://qiita.com/shibukawa/items/19ab5c381bbb2e09d0d9)
 
 ***
+## <a id='jump6' href='#top'>DOM要素サイズ取得</a>
 
+### JavaScript による要素サイズの取得
+
+### jQueryによる要素のサイズ取得
+
+### 参考
+[Qiita](https://qiita.com/ypyp/items/c4b76e85f32b1f0cd577)
+
+***
+## <a id='jump7' href='#top'>DOM要素座標の取得</a>
+
+
+
+***
 ## <a id='jumplink' href='#top'>便利サイト集</a>
 
 * [とほほのJavaScriptリファレンス](http://www.tohoho-web.com/js/)
